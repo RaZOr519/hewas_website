@@ -521,7 +521,7 @@ export default function Portfolio() {
         <img
           src={bgWatermark}
           alt="Background Watermark"
-          className="w-full h-full object-cover opacity-50 md:opacity-4 mix-blend-screen"
+          className="w-full h-full object-cover opacity-4 mix-blend-screen"
         />
       </div>
 
