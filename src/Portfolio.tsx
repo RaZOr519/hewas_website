@@ -226,7 +226,7 @@ const Hero = () => {
             <motion.h1
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="text-6xl md:text-9xl font-black tracking-tighter text-white drop-shadow-2xl"
+              className="text-6xl md:text-9xl font-black tracking-tighter text-white drop-shadow-2xl hover:scale-[1.2] duration-700"
             >
               SHOWREEL
             </motion.h1>
@@ -240,7 +240,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-20 text-center max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-7xl font-bold leading-tight">
+          <h2 className="text-4xl md:text-7xl font-bold leading-tight hover:scale-[1.05] duration-1200">
             WE TURN <br />
             CREATIVE SPARKS <br />
             INTO <span className="text-primary italic">CINEMATIC FIRE.</span>
@@ -446,7 +446,7 @@ const Contact = () => {
             </div>
             <input type="text" placeholder="SUBJECT" className="w-full min-w-0 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl px-4 sm:px-5 py-3 sm:py-4 focus:outline-none focus:border-primary transition-colors font-bold text-xs tracking-widest" />
             <textarea placeholder="MESSAGE" rows={4} className="w-full min-w-0 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl px-4 sm:px-5 py-3 sm:py-4 focus:outline-none focus:border-primary transition-colors font-bold text-xs tracking-widest resize-none"></textarea>
-            <button className="w-full min-w-0 bg-primary text-black font-black tracking-widest md:tracking-[0.2em] py-4 md:py-5 rounded-xl md:rounded-2xl hover:scale-[1.02] shadow-lg shadow-primary/20 transition-all text-xs sm:text-sm">
+            <button className="w-full min-w-0 bg-primary text-black font-black tracking-widest md:tracking-[0.2em] py-4 md:py-5 rounded-xl md:rounded-2xl hover:scale-[1.02] shadow-lg shadow-#fdc137 transition-all text-xs sm:text-sm">
               SEND MESSAGE
             </button>
           </form>
