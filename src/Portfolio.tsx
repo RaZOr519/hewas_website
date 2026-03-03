@@ -461,7 +461,7 @@ const Footer = () => {
     <footer className="py-12 px-6 border-t border-white/5">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
         <p className="text-white/40 text-xs font-bold tracking-widest">
-          © 2026 HEWAS PRODUCTION HOUSE, Made by <span className="text-[#2ace53]">MAGICIANS.</span>
+          © 2026 HEWAS PRODUCTION HOUSE, Made by <span className="text-[#2ace53] hover:[text-shadow:0_0_5px_#2ace53,0_0_15px_#2ace53,0_0_30px_#2ace53] transition-all duration-300">MAGICIANS.</span>
         </p>
         <div className="flex gap-8">
           <a href="#" className="text-white/40 text-xs font-bold tracking-widest hover:text-primary transition-colors">PRIVACY POLICY</a>
